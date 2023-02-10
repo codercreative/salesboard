@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <h1>Salesboard</h1>
+        <img
+          class="img-employee"
+          src="images/picture.jpg"
+          alt="employee-headshot"
+        />
+        <div class="button-container">
+          <button class="star" id="star" onclick="addStar()">⭐️</button>
+          <button class="fire" id="fire" onclick="addFire()">🔥</button>
+        </div>
+        <p class="sales-title" id="sales-title">Live Sales</p>
+        <div class="sales-input" id="sales-input"></div>
+        <p class="achievements-title" id="achievements-title">
+          Live Achievements
+        </p>
+        <div class="achievements-input" id="achievements-input"></div>
+        <div class="display-income-wrapper">
+          <div class="revenue-wrapper">
+            <p class="revenue-title" onclick="addRevenue(num)">Total Revenue</p>
+            <div class="revenue-input" id="revenue-input"></div>
+          </div>
+          <div class="commission-wrapper">
+            <p class="commission-title" onclick="addCommission(num)">
+              Total Commission
+            </p>
+            <div class="commission-input" id="commission-input"></div>
+          </div>
+        </div>
+        <button class="reset-btn" id="reset-btn" onclick="reset()">
+          Reset Board
+        </button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

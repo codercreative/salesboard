@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/*
+COLOR PALETTE:
+BLACK: #201A23
+WHITE: #FBFBFB
+DARK: #44354A
+COLOR: #9E4770
+*/
+
+/* GENERAL */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #201a23;
+}
+
+/* CONTAINERS */
+
+.card {
+  height: 100vh;
+  padding: 2px;
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+}
+
+/* IMAGE */
+
+.img-employee {
+  width: 30%;
+  border-radius: 50%;
+  border: 4px solid #44354a;
+}
+
+/* BUTTONS */
+.star,
+.fire,
+.reset-btn {
+  background-color: #9e4770;
+  border: none;
+  cursor: pointer;
+}
+
+.star,
+.fire {
+  border-radius: 4px;
+  padding: 7px 30px;
+  margin-top: 16px;
+}
+
+.star {
+  margin-right: 3px;
+}
+
+.fire {
+  margin-left: 3px;
+}
+
+.reset-btn {
+  padding: 20px;
+  margin-top: 40px;
+  color: #fff;
+  border-radius: 30px;
+  background-color: #44354a;
+  font-weight: 700;
+  border: 3px solid #9e4770;
+}
+
+.sales-title,
+.achievements-title,
+.revenue-title,
+.commission-title {
+  margin: 36px 0 5px 0;
+  font-weight: bold;
+}
+
+.sales-input,
+.achievements-input,
+.revenue-input,
+.commission-input {
+  width: 100%;
+  background-color: #44354a;
+  border: none;
+  border-radius: 50px;
+  min-height: 30px;
+  /* center the emojis vertically: */
+  padding-top: 15px;
+  text-align: left;
+}
+
+.revenue-input,
+.commission-input {
+  width: 180px;
+  min-height: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.display-income-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note {
+  font-size: 0.5rem;
+}
+
+.note-1 {
+  margin-top: 30px;
+}
